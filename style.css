@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    margin: 0 60px 0 60px;
+}
+
+.NavApple {
+    background-color: rgba(29, 29, 31, 0.72);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(15px);
+    height: 40px;
+    width: 230%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: rgb(156, 156, 156);
+    box-shadow: 3px 2px 6px 0px #080808;
+    justify-content: end;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    left: 25%;
+    top: 28;
+}
+
+.navegação {
+    display: flex;
+}
+
+a {
+    color: rgb(235, 235, 235);
+    padding: 0 5px 0 5px;
+}
+
+.Apre {
+    margin-top: 50px;
+    color: rgb(218, 218, 218);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.H1N {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.TextColor {
+    background: rgb(227, 154, 101);
+    background: linear-gradient(90deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    animation: texto 2s infinite ease-in-out;
+}
+
+.P1N {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.note {
+    width: 650px;
+}
+
+.pt2 {
+    text-align: center;
+}
+
+.Svg2 {
+    width: 520px;
+}
+
+.TextEx {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.HTML {
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.expe {
+    margin-top: 30px;
+}
+
+.Ling {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border {
+    width: 400px;
+    border: solid 1px rgb(58, 58, 58);
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.quant {
+    background: linear-gradient(90deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
+    height: 30px;
+    border-radius: 20px;
+}
+
+.QHTML {
+    width: 93%;
+}
+
+.QCSS {
+    width: 96%;
+}
+
+.QJS {
+    width: 82%;
+}
+
+.QREACT {
+    width: 62%;
+}
+
+.CSS {
+    margin-top: 20px;
+}
+
+.PT1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.SVGHTML {
+    width: 30px;
+    height: 30px;
+}
+
+.espa {
+    margin-left: 4px;
+}
+
+@keyframes texto {
+    0% {
+        background-size: 100%;
+    }
+
+    50% {
+        background-size: 300%;
+        background-position: 23%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
