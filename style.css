@@ -30,13 +30,15 @@ body {
     color: rgb(156, 156, 156);
     box-shadow: 3px 2px 6px 0px #080808;
     justify-content: end;
+    border: solid 1px #1e1e1e;
 }
 
 nav {
     position: fixed;
     z-index: 999;
     left: 25%;
-    top: 28;
+    top: 25px;
+   
 }
 
 .navegação {
@@ -49,11 +51,11 @@ a {
 }
 
 .Apre {
-    margin-top: 50px;
+    margin-top: 154px;
     color: rgb(218, 218, 218);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .H1N {
@@ -172,6 +174,9 @@ a {
 .espa {
     margin-left: 4px;
 }
+.Respons{
+    width: 126%;
+}
 
 @keyframes texto {
     0% {
@@ -187,3 +192,43 @@ a {
         background-size: 100%;
     }
 }
+
+.cls-3{
+    animation: Svgs 4s infinite ease-in-out;
+}
+.cls-2{
+    animation: Svgs 4s infinite ease-in-out;
+    animation-delay: 2s;
+}
+.cls-1{
+    animation: Svgs 4s infinite ease-in-out;
+    animation-delay: 1s;
+}
+.cls-29{
+    animation: Svgs 4s infinite ease-in-out;
+    animation-delay: 500ms;
+}
+.none{
+    animation: none !important;
+}
+.cls-6,.cls-7,.cls-8,.cls-9,.cls-10,.cls-12,.cls-13,.cls-14,.cls-15,.cls-16,.cls-17,.cls-18,.cls-19 {
+    animation: Svgs 6s infinite ease-in-out;
+    animation-delay: 200ms;
+}
+
+
+
+@keyframes Svgs {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
