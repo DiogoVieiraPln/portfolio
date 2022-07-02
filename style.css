@@ -57,6 +57,9 @@ a {
     align-items: center;
     justify-content: space-around;
 }
+.Margin{
+    margin-top: 0px;
+}
 
 .H1N {
     font-weight: 700;
@@ -215,8 +218,33 @@ a {
     animation: Svgs 6s infinite ease-in-out;
     animation-delay: 200ms;
 }
+.clsx-2{
+    animation: Svgs2 6s infinite ease-in-out;
+    animation-delay: 200ms;
+}
+.clsx-1{
+    animation: Svgs2 6.5s infinite ease-in-out;
+    animation-delay: 600ms;
+}
 
+.clsx-14,.clsx-15,.clsx-6,.clsx-9 {
+    animation: Svgs 6.5s infinite ease-in-out;
+    animation-delay: 600ms;
+}
 
+@keyframes Svgs2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
 
 @keyframes Svgs {
     0% {
