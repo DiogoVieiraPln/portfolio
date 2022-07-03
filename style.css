@@ -38,7 +38,7 @@ nav {
     z-index: 999;
     left: 25%;
     top: 25px;
-   
+
 }
 
 .navegação {
@@ -57,7 +57,8 @@ a {
     align-items: center;
     justify-content: space-around;
 }
-.Margin{
+
+.Margin {
     margin-top: 0px;
 }
 
@@ -177,9 +178,189 @@ a {
 .espa {
     margin-left: 4px;
 }
-.Respons{
+
+.Respons {
     width: 126%;
 }
+
+.Font {
+    font-size: 40px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.Arte {
+    width: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 200px;
+    min-height: 200px;
+    height: 400px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border: 1px solid rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Site1 {
+    background-image: url(./img/site\ 1.jpg);
+}
+
+.Site2 {
+    background-image: url(./img/comida.jpg);
+}
+
+.Site3 {
+    background-image: url(./img/netflix.jpg);
+}
+
+.Site4 {
+    background-image: url(./img/obaa.com.br_.png);
+    background-position-y: -200px;
+}
+
+.Site5 {
+    background-image: url(./img/zyro-templates.jpg);
+    background-size: 140%;
+}
+
+.Site6 {
+    background-image: url(./img/loucura.jpg);
+
+}
+
+.ArtesF {
+    margin-top: 40px;
+}
+
+.Arte1 {
+    background-image: url(./img/banner-zema.pn);
+    background-size: 200%;
+}
+
+.Arte2 {
+    background-image: url(./img/mockup-hamburguer-2.pn);
+    background-size: 150%;
+
+}
+
+.Arte3 {
+    background-image: url(./img/mockup-hamburger.pn);
+    background-size: 150%;
+}
+
+.Arte4 {
+    background-image: url(./img/mockup2-sonho-de-valsa.pn);
+    background-size: 150%;
+}
+
+.Arte5 {
+    background-image: url(./img/pizzaria\ napolitana\ \(8\).jpeg);
+}
+
+.Arte6 {
+    background-image: url(./img/Biotrof-panfleto.png);
+}
+
+.botão{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
+    color: rgb(230, 230, 230);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 500ms;
+    }
+
+.botão:hover{
+   animation: texto 2s ease-in-out infinite;
+   transition: 500ms;
+   transform: translateY(-8px);
+}
+.fim{
+    text-align: center;
+    margin-top: 60px;
+}
+.Final{
+    color: rgb(231, 231, 231);
+}
+.ultimoB{
+    width: 30%;
+    height: 40px;
+    margin-top: 30px;
+     background: linear-gradient(90deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
+     color: rgb(231, 231, 231);
+     font-weight: 600;
+     font-size: 20px;
+     border-radius: 12px;
+     cursor: pointer;
+     transition: 500ms;
+    }
+    .ultimoB:hover{
+        animation: texto 2s ease-in-out infinite;
+   transition: 500ms;
+   transform: translateY(-8px);
+    }
+    .contact{
+        color: rgb(231, 231, 231);
+        margin-top: 30px;
+        font-weight: 600;
+    }
+    .redes{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .spe{
+        padding: 10px;
+    }
+    .svgredes{
+        transition: 500ms;
+        cursor: pointer;
+    }
+    .svgredes:hover{
+        transform: translatey(-10px);
+        transition: 500ms;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes texto {
     0% {
@@ -196,40 +377,67 @@ a {
     }
 }
 
-.cls-3{
+.cls-3 {
     animation: Svgs 4s infinite ease-in-out;
 }
-.cls-2{
+
+.cls-2 {
     animation: Svgs 4s infinite ease-in-out;
     animation-delay: 2s;
 }
-.cls-1{
+
+.cls-1 {
     animation: Svgs 4s infinite ease-in-out;
     animation-delay: 1s;
 }
-.cls-29{
+
+.cls-29 {
     animation: Svgs 4s infinite ease-in-out;
     animation-delay: 500ms;
 }
-.none{
+
+.none {
     animation: none !important;
 }
-.cls-6,.cls-7,.cls-8,.cls-9,.cls-10,.cls-12,.cls-13,.cls-14,.cls-15,.cls-16,.cls-17,.cls-18,.cls-19 {
+
+.cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
     animation: Svgs 6s infinite ease-in-out;
     animation-delay: 200ms;
 }
-.clsx-2{
+
+.clsx-2 {
     animation: Svgs2 6s infinite ease-in-out;
     animation-delay: 200ms;
 }
-.clsx-1{
+
+.clsx-1 {
     animation: Svgs2 6.5s infinite ease-in-out;
     animation-delay: 600ms;
 }
 
-.clsx-14,.clsx-15,.clsx-6,.clsx-9 {
+.clsx-14, .clsx-15, .clsx-6, .clsx-9 {
     animation: Svgs 6.5s infinite ease-in-out;
     animation-delay: 600ms;
+}
+
+.clsz-132, .clsz-81, .clsz-133, .clsz-126 {
+    animation: Svgs 6.5s infinite ease-in-out;
+    animation-delay: 600ms;
+}
+
+
+@keyframes Svgs3 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes Svgs2 {
@@ -259,4 +467,3 @@ a {
         transform: translateX(0);
     }
 }
-
