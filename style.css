@@ -22,22 +22,55 @@ body {
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(15px);
     height: 40px;
-    width: 230%;
+    width: 50%;
     border-radius: 16px;
     display: flex;
     align-items: center;
     padding: 10px;
     color: rgb(156, 156, 156);
     box-shadow: 3px 2px 6px 0px #080808;
-    justify-content: end;
+    justify-content: space-between;
     border: solid 1px #323232;
+}
+.anime1{
+    animation: princ 700ms ease-out;
+}
+
+@keyframes princ {
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+    
+
+.eu{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(43, 43, 43);
+}
+.nome{
+    margin-left: 10px;
+    font-weight: 500;
+    color: #dadada;
 }
 
 nav {
     position: fixed;
     z-index: 999;
-    left: 25%;
     top: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 
 }
 
@@ -215,6 +248,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    box-shadow: #0000009e 4px 6px 9px;
+    transition: 300ms ease-in-out;
+}
+.Arte:hover{
+    transform: translateY(-10px);
+    transition: 300ms ease-in-out;
 }
 
 .Site1 {
@@ -249,24 +288,28 @@ a {
 }
 
 .Arte1 {
-    background-image: url(./img/banner-zema.pn);
+    background-image: url(./img/banner-zema-C.png.jpg);
     background-size: 200%;
+   
 }
 
+
 .Arte2 {
-    background-image: url(./img/mockup-hamburguer-2.pn);
+    background-image: url(./img/mockup-hamburguer-2-C.png.jpg);
     background-size: 150%;
 
 }
 
 .Arte3 {
-    background-image: url(./img/mockup-hamburger.pn);
+    background-image: url(./img/mockup-hamburger-C.png.jpg);
     background-size: 150%;
+  
 }
 
 .Arte4 {
-    background-image: url(./img/mockup2-sonho-de-valsa.pn);
+    background-image: url(./img/mockup2-sonho-de-valsa-C.png.jpg);
     background-size: 150%;
+    
 }
 
 .Arte5 {
@@ -344,32 +387,6 @@ a {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes texto {
     0% {
         background-size: 100%;
@@ -384,59 +401,6 @@ a {
         background-size: 100%;
     }
 }
-
-.cls-3 {
-     animation: Svgs3 3s infinite ease-in-out;
-     animation-delay: 1s;
-    
-}
-
-.cls-2 {
-    animation: Svgs3 3s infinite ease-in-out;
-     animation-delay: 2s;
-}
-
-.cls-1 {
-    animation: Svgs3 3s infinite ease-in-out;
-     animation-delay: 3s;
-}
-
-.cls-29 {
-    animation: Svgs 4s infinite ease-in-out;
-    animation-delay: 500ms;
-}
-
-.none {
-    animation: none !important;
-}
-
-.cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
-    animation: Svgs 6s infinite ease-in-out;
-    animation-delay: 200ms;
-}
-
-.clsx-2 {
-    animation: Svgs2 6s infinite ease-in-out;
-    animation-delay: 200ms;
-}
-
-.clsx-1 {
-    animation: Svgs2 6.5s infinite ease-in-out;
-    animation-delay: 600ms;
-}
-
-.clsx-14, .clsx-15, .clsx-6, .clsx-9 {
-    animation: Svgs 6.5s infinite ease-in-out;
-    animation-delay: 600ms;
-}
-
-.clsz-132, .clsz-81, .clsz-133, .clsz-126 {
-    animation: Svgs 6.5s infinite ease-in-out;
-    animation-delay: 600ms;
-}
-
-
-
 
 @keyframes Svgs3 {
     0% {
@@ -478,4 +442,68 @@ a {
     100% {
         transform: translateX(0);
     }
+}
+
+.cls-3 {
+    animation: Svgs3 3s infinite ease-in-out;
+    animation-delay: 1s;
+   
+}
+
+.cls-2 {
+   animation: Svgs3 3s infinite ease-in-out;
+    animation-delay: 2s;
+}
+
+.cls-1 {
+   animation: Svgs3 3s infinite ease-in-out;
+    animation-delay: 3s;
+}
+
+.cls-29 {
+   animation: Svgs 4s infinite ease-in-out;
+   animation-delay: 500ms;
+}
+
+.none {
+   animation: none !important;
+}
+
+.cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
+   animation: Svgs 6s infinite ease-in-out;
+   animation-delay: 200ms;
+}
+
+.clsx-2 {
+   animation: Svgs2 6s infinite ease-in-out;
+   animation-delay: 200ms;
+}
+
+.clsx-1 {
+   animation: Svgs2 6.5s infinite ease-in-out;
+   animation-delay: 600ms;
+}
+
+.clsx-14, .clsx-15, .clsx-6, .clsx-9 {
+   animation: Svgs 6.5s infinite ease-in-out;
+   animation-delay: 600ms;
+}
+
+.clsz-132, .clsz-81, .clsz-133, .clsz-126,.clsz-120,.clsz-121,.clsz-122,.clsz-123,.clsz-124,.clsz-125,.clsz-127,.clsz-128,.clsz-129,.clsz-130,.clsz-131 {
+   animation: Svgs 6.5s infinite ease-in-out;
+   animation-delay: 600ms;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="top"] {
+    transform: translate3d( 0, -50px, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px,0px,0px);
 }
