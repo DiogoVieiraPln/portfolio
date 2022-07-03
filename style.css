@@ -18,7 +18,7 @@ body {
 }
 
 .NavApple {
-    background-color: rgba(29, 29, 31, 0.72);
+    background-color: rgb(39 39 40 / 72%);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(15px);
     height: 40px;
@@ -30,7 +30,7 @@ body {
     color: rgb(156, 156, 156);
     box-shadow: 3px 2px 6px 0px #080808;
     justify-content: end;
-    border: solid 1px #1e1e1e;
+    border: solid 1px #323232;
 }
 
 nav {
@@ -281,6 +281,7 @@ a {
     font-weight: 600;
     cursor: pointer;
     transition: 500ms;
+    box-shadow: 4px 4px 6px #00000066;
     }
 
 .botão:hover{
@@ -306,6 +307,7 @@ a {
      border-radius: 12px;
      cursor: pointer;
      transition: 500ms;
+     box-shadow: 4px 4px 6px #00000066;
     }
     .ultimoB:hover{
         animation: texto 2s ease-in-out infinite;
