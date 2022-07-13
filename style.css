@@ -14,7 +14,15 @@
 
 body {
     background-color: rgb(15, 15, 15);
-    margin: 0 60px 0 60px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1800px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .NavApple {
@@ -31,34 +39,49 @@ body {
     box-shadow: 3px 2px 6px 0px #080808;
     justify-content: space-between;
     border: solid 1px #323232;
+    max-width: 1200px;
 }
-.anime1{
+
+.anime1 {
     animation: princ 700ms ease-out;
 }
 
 @keyframes princ {
-    0%{
+    0% {
         opacity: 0;
         transform: translateY(-20px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-    
 
-.eu{
+
+.eu {
     display: flex;
     align-items: center;
 }
-.logo{
+
+.links:hover {
+    background: rgb(227, 154, 101);
+    background: linear-gradient(90deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+.logo {
     width: 30px;
     height: 30px;
     border-radius: 50px;
     background-color: rgb(43, 43, 43);
 }
-.nome{
+
+.nome {
     margin-left: 10px;
     font-weight: 500;
     color: #dadada;
@@ -76,10 +99,20 @@ nav {
 
 .navegação {
     display: flex;
+    font-weight: 600;
+}
+
+.padd {
+    padding: 5px;
+}
+
+.Pessoa {
+    width: 734px;
+    max-width: 734px;
 }
 
 a {
-    color: rgb(235, 235, 235);
+    color: rgb(215 215 215);
     padding: 0 5px 0 5px;
 }
 
@@ -117,7 +150,8 @@ a {
 }
 
 .note {
-    width: 650px;
+    width: 734px;
+    max-width: 734px;
 }
 
 .pt2 {
@@ -187,12 +221,14 @@ a {
 }
 
 .CSS {
-    margin-top: 20px;
+    margin-top: 43px;
 }
+
 .QILLU {
     width: 88%;
 }
-.QPHOTO{
+
+.QPHOTO {
     width: 97%;
 }
 
@@ -219,11 +255,13 @@ a {
 }
 
 .Respons {
-    width: 126%;
+    max-width: 500px;
+    width: 500px;
 }
 
 .Font {
     font-size: 40px;
+    margin-left: 32px;
 }
 
 .blocks {
@@ -233,11 +271,11 @@ a {
 }
 
 .Arte {
-    width: 400px;
-    max-width: 400px;
-    max-height: 400px;
-    min-width: 200px;
-    min-height: 200px;
+    width: 29%;
+    max-width: 443px;
+    max-height: 335px;
+    min-width: 336px;
+    min-height: 336px;
     height: 400px;
     background-color: rgb(37, 37, 37);
     border-radius: 15px;
@@ -251,7 +289,8 @@ a {
     box-shadow: #0000009e 4px 6px 9px;
     transition: 300ms ease-in-out;
 }
-.Arte:hover{
+
+.Arte:hover {
     transform: translateY(-10px);
     transition: 300ms ease-in-out;
 }
@@ -288,28 +327,28 @@ a {
 }
 
 .Arte1 {
-    background-image: url(./img/banner-zema-C.png.jpg);
+    background-image: url();
     background-size: 200%;
-   
+
 }
 
 
 .Arte2 {
-    background-image: url(./img/mockup-hamburguer-2-C.png.jpg);
+    background-image: url();
     background-size: 150%;
 
 }
 
 .Arte3 {
-    background-image: url(./img/mockup-hamburger-C.png.jpg);
+    background-image: url();
     background-size: 150%;
-  
+
 }
 
 .Arte4 {
-    background-image: url(./img/mockup2-sonho-de-valsa-C.png.jpg);
+    background-image: url();
     background-size: 150%;
-    
+
 }
 
 .Arte5 {
@@ -320,7 +359,7 @@ a {
     background-image: url(./img/Biotrof-panfleto.png);
 }
 
-.botão{
+.botão {
     width: 50%;
     height: 30px;
     margin-bottom: 20px;
@@ -331,60 +370,84 @@ a {
     cursor: pointer;
     transition: 500ms;
     box-shadow: 4px 4px 6px #00000066;
-    }
-
-.botão:hover{
-   animation: texto 2s ease-in-out infinite;
-   transition: 500ms;
-   transform: translateY(-8px);
 }
-.fim{
+
+.botão:hover {
+    animation: texto 2s ease-in-out infinite;
+    transition: 500ms;
+    transform: translateY(-8px);
+}
+
+.fim {
     text-align: center;
     margin-top: 60px;
 }
-.Final{
+
+.Final {
     color: rgb(231, 231, 231);
 }
-.ultimoB{
+
+.ultimoB {
+    max-width: 25%;
     width: 30%;
     height: 40px;
     margin-top: 30px;
-     background: linear-gradient(90deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
-     color: rgb(231, 231, 231);
-     font-weight: 600;
-     font-size: 20px;
-     border-radius: 12px;
-     cursor: pointer;
-     transition: 500ms;
-     box-shadow: 4px 4px 6px #00000066;
-    }
-    .ultimoB:hover{
-        animation: texto 2s ease-in-out infinite;
-   transition: 500ms;
-   transform: translateY(-8px);
-    }
-    .contact{
-        color: rgb(231, 231, 231);
-        margin-top: 30px;
-        font-weight: 600;
-    }
-    .redes{
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
-    .spe{
-        padding: 10px;
-    }
-    .svgredes{
-        transition: 500ms;
-        cursor: pointer;
-    }
-    .svgredes:hover{
-        transform: translatey(-10px);
-        transition: 500ms;
+    background: linear-gradient(90deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
+    color: rgb(231, 231, 231);
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 500ms;
+    box-shadow: 4px 4px 6px #00000066;
+}
 
-    }
+.ultimoB:hover {
+    animation: texto 2s ease-in-out infinite;
+    transition: 500ms;
+    transform: translateY(-8px);
+}
+
+.contact {
+    color: rgb(231, 231, 231);
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.spe {
+    padding: 10px;
+}
+
+.svgredes {
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.svgredes:hover {
+    transform: translatey(-10px);
+    transition: 500ms;
+
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(40deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
+    border-radius: 20px;
+}
+
 
 
 @keyframes texto {
@@ -447,51 +510,51 @@ a {
 .cls-3 {
     animation: Svgs3 3s infinite ease-in-out;
     animation-delay: 1s;
-   
+
 }
 
 .cls-2 {
-   animation: Svgs3 3s infinite ease-in-out;
+    animation: Svgs3 3s infinite ease-in-out;
     animation-delay: 2s;
 }
 
 .cls-1 {
-   animation: Svgs3 3s infinite ease-in-out;
+    animation: Svgs3 3s infinite ease-in-out;
     animation-delay: 3s;
 }
 
 .cls-29 {
-   animation: Svgs 4s infinite ease-in-out;
-   animation-delay: 500ms;
+    animation: Svgs 4s infinite ease-in-out;
+    animation-delay: 500ms;
 }
 
 .none {
-   animation: none !important;
+    animation: none !important;
 }
 
 .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
-   animation: Svgs 6s infinite ease-in-out;
-   animation-delay: 200ms;
+    animation: Svgs 6s infinite ease-in-out;
+    animation-delay: 200ms;
 }
 
 .clsx-2 {
-   animation: Svgs2 6s infinite ease-in-out;
-   animation-delay: 200ms;
+    animation: Svgs2 6s infinite ease-in-out;
+    animation-delay: 200ms;
 }
 
 .clsx-1 {
-   animation: Svgs2 6.5s infinite ease-in-out;
-   animation-delay: 600ms;
+    animation: Svgs2 6.5s infinite ease-in-out;
+    animation-delay: 600ms;
 }
 
 .clsx-14, .clsx-15, .clsx-6, .clsx-9 {
-   animation: Svgs 6.5s infinite ease-in-out;
-   animation-delay: 600ms;
+    animation: Svgs 6.5s infinite ease-in-out;
+    animation-delay: 600ms;
 }
 
-.clsz-132, .clsz-81, .clsz-133, .clsz-126,.clsz-120,.clsz-121,.clsz-122,.clsz-123,.clsz-124,.clsz-125,.clsz-127,.clsz-128,.clsz-129,.clsz-130,.clsz-131 {
-   animation: Svgs 6.5s infinite ease-in-out;
-   animation-delay: 600ms;
+.clsz-132, .clsz-81, .clsz-133, .clsz-126, .clsz-120, .clsz-121, .clsz-122, .clsz-123, .clsz-124, .clsz-125, .clsz-127, .clsz-128, .clsz-129, .clsz-130, .clsz-131 {
+    animation: Svgs 6.5s infinite ease-in-out;
+    animation-delay: 600ms;
 }
 
 [data-anime] {
@@ -500,10 +563,353 @@ a {
 }
 
 [data-anime="top"] {
-    transform: translate3d( 0, -50px, 0);
+    transform: translate3d(0, -50px, 0);
 }
 
-[data-anime].animate{
+[data-anime].animate {
     opacity: 1;
-    transform: translate3d(0px,0px,0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+@media (max-width:1550px) {
+    .Apre {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1353px) {
+    .Pessoa {
+        width: 662px;
+    }
+}
+
+@media (max-width:1296px) {
+    .note {
+        width: 658px;
+    }
+}
+
+@media (max-width:1250px) {
+    .Pessoa {
+        width: 586px;
+    }
+
+    .note {
+        width: 585px;
+    }
+}
+
+@media (max-width:1100px) {
+    body {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .H1N {
+        font-size: 48px;
+    }
+
+    .P1N {
+        font-size: 18px;
+    }
+
+    .note {
+        width: 514px;
+    }
+
+    .Pessoa {
+        width: 508px;
+    }
+
+    .Ling {
+        flex-direction: column;
+    }
+
+    .margin2 {
+        margin-top: 52px;
+    }
+
+    .PT1 {
+        width: 100%;
+    }
+
+    .HTML {
+        width: 100%;
+    }
+
+    .espa {
+        font-size: 20px;
+    }
+
+    .border {
+        width: 53%;
+    }
+
+    .Respons {
+        width: 377px;
+    }
+
+    .Arte {
+        max-width: 460px;
+        max-height: 287px;
+        min-width: 272px;
+        min-height: 240px;
+    }
+
+}
+
+@media (max-width:1009px) {
+    .Svg2 {
+        width: 520px;
+    }
+
+    .note {
+        width: 475px;
+    }
+
+    .H1N {
+        font-size: 44px;
+    }
+
+    .P1N {
+        font-size: 16px;
+    }
+
+    .Respons {
+        width: 337px;
+    }
+
+    .Pessoa {
+        width: 440px;
+    }
+}
+
+@media (max-width:958px) {
+    .NavApple {
+        width: 70%;
+    }
+
+    .Arte {
+        max-width: 484px;
+        max-height: 189px;
+        min-width: 212px;
+        min-height: 215px;
+    }
+
+    .note {
+        width: 424px;
+    }
+
+    .Pessoa {
+        width: 396px;
+    }
+
+    .P1N {
+        font-size: 15px;
+    }
+
+    .Respons {
+        width: 290px;
+    }
+}
+
+@media (max-width:883px) {
+    .H1N {
+        font-size: 40px;
+    }
+
+    .note {
+        width: 367px;
+    }
+
+    .P1N {
+        font-size: 14px;
+    }
+
+    .Pessoa {
+        width: 333px;
+    }
+
+    .Respons {
+        width: 263px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .H1N {
+        font-size: 58px;
+        text-align: center;
+    }
+
+    .P1N {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .note {
+        width: 100%;
+        margin-top: 43px;
+    }
+
+    .Pessoa {
+        width: 100%;
+    }
+
+    .Svg2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .espa {
+        font-size: 23px;
+    }
+
+    .Respons {
+        width: 365px;
+        margin-top: 46px;
+    }
+
+    .ultimoB {
+        max-width: 50%;
+        width: 52%;
+    }
+
+    .Apre {
+        flex-direction: column;
+    }
+
+    .Margin {
+        flex-direction: column-reverse !important;
+    }
+
+    .Arte {
+        min-height: 446px;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .Font {
+        margin: 0;
+    }
+
+    .blocks {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .svg, .Svg {
+        width: 100%;
+        text-align: center;
+    }
+
+    .HTML {
+        display: flex;
+        color: white;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .space {
+        width: 100%;
+        /* display: flex; */
+        align-items: center;
+        margin-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .border {
+        width: 80%;
+        height: 42px;
+    }
+
+    .quant {
+        height: 100%;
+
+    }
+}
+
+@media (max-width:642px) {
+    .H1N {
+        font-size: 49px;
+    }
+
+    .P1N {
+        font-size: 17px;
+    }
+
+    .NavApple {
+        width: 85%;
+    }
+
+    .Arte {
+        min-height: 291px;
+        margin-top: 25px;
+        min-width: 401px;
+    }
+
+}
+
+@media (max-width:504px) {
+    .H1N {
+        font-size: 40px;
+    }
+
+    .P1N {
+        font-size: 15px;
+    }
+
+    .espa {
+        font-size: 20px;
+    }
+
+    nav {
+        top: 0;
+    }
+
+    .NavApple {
+        width: 100%;
+        border-bottom: solid 1px #323232 !important;
+        border-radius: 0;
+        border: none;
+    }
+
+    .ultimoB {
+        max-width: 81%;
+        width: 73%;
+    }
+
+    .Apre {
+        margin-top: 104px;
+    }
+}
+
+@media (max-width:425px) {
+    body {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .H1N {
+        font-size: 34px;
+    }
+
+    .P1N {
+        font-size: 14px;
+    }
+
+    .border {
+        width: 100%;
+        height: 35px;
+    }
 }
