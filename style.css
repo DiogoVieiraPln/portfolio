@@ -42,6 +42,19 @@ main {
     max-width: 1200px;
 }
 
+nav {
+    position: fixed;
+    z-index: 999;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    transition: 300ms ease-in-out;
+}
+
+nav.sumiu{
+    top: -70px;
+}
 .anime1 {
     animation: princ 700ms ease-out;
 }
@@ -75,27 +88,20 @@ main {
 }
 
 .logo {
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    background-color: rgb(43, 43, 43);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nome {
-    margin-left: 10px;
     font-weight: 500;
     color: #dadada;
 }
 
-nav {
-    position: fixed;
-    z-index: 999;
-    top: 25px;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
 
-}
 
 .navegação {
     display: flex;
@@ -117,7 +123,7 @@ a {
 }
 
 .Apre {
-    margin-top: 154px;
+    margin-top: 100px;
     color: rgb(218, 218, 218);
     display: flex;
     align-items: center;
@@ -334,19 +340,19 @@ a {
 
 
 .Arte2 {
-    background-image: url();
+    background-image: url(./img/mockup-hamburger-C.jpg);
     background-size: 150%;
 
 }
 
 .Arte3 {
-    background-image: url();
+    background-image: url(./img/mockup-hamburguer-2-C.jpg);
     background-size: 150%;
 
 }
 
 .Arte4 {
-    background-image: url();
+    background-image: url(./img/mockup2-sonho-de-valsa-C.jpg);
     background-size: 150%;
 
 }
@@ -772,7 +778,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .Respons {
-        width: 365px;
+        width: 100%;
         margin-top: 46px;
     }
 
@@ -856,7 +862,7 @@ body::-webkit-scrollbar-thumb {
     .Arte {
         min-height: 291px;
         margin-top: 25px;
-        min-width: 401px;
+        min-width: 291px;
     }
 
 }
@@ -912,5 +918,14 @@ body::-webkit-scrollbar-thumb {
     .border {
         width: 100%;
         height: 35px;
+    }
+    .links{
+        font-size:13px;
+    }
+    .nome{
+        font-size: 11px;
+    }
+    .TextEx{
+        font-size: 43px;
     }
 }
