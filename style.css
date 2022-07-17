@@ -91,31 +91,53 @@ nav.sumiu{
     width: 100vw;
     height: 100vh;
     background-color: rgba(15, 15, 15, 0.72);
-    -webkit-backdrop-filter: saturate(180%) blur(26px);
-    backdrop-filter: saturate(180%) blur(26px);
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 999;
     display: none;
+    z-index: 999;
     justify-content: center;
     align-items: center;
-
-
+    animation: Fmodal 500ms ease-out;
+    -webkit-backdrop-filter: saturate(180%) blur(26px); 
+    backdrop-filter: saturate(180%) blur(26px);
 }
 .modal{
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-
 }
+
+.link-drive{
+    margin-left: 18px;
+    margin-top: 15px;
+}
+.link-apple{
+    background: rgb(227, 154, 101);
+    background: linear-gradient(90deg, rgba(227, 154, 101, 1) 0%, rgba(169, 47, 251, 1) 45%, rgba(101, 7, 250, 1) 77%, rgba(57, 25, 187, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+@keyframes Fmodal{
+    from{-webkit-backdrop-filter: saturate(180%) blur(0px);
+        backdrop-filter: saturate(180%) blur(0px);}
+
+    to{ -webkit-backdrop-filter: saturate(180%) blur(26px);
+        backdrop-filter: saturate(180%) blur(26px);}
+}
+
 @keyframes modal{
     from{opacity: 0;
     transform: translate3d(0, -60px, 0);}
 
-    to{ opacity: 1;
-        transform: translate3d(0, 0px, 0);}
+    to{ 
+        transform: translate3d(0, 0px, 0);
+    }
 }
 
 .mostrar .modal{
@@ -358,11 +380,11 @@ a {
 }
 
 .Site1 {
-    background-image: url(./img/site\ 1.jpg);
+    background-image: url(./img/fornecedores.jpg);
 }
 
 .Site2 {
-    background-image: url(./img/comida.jpg);
+    background-image: url(./img/sitemassas.jpg);
 }
 
 .Site3 {
@@ -380,7 +402,7 @@ a {
 }
 
 .Site6 {
-    background-image: url(./img/loucura.jpg);
+    background-image: url(./img/sitevarycrazy2.jpg);
 
 }
 
@@ -396,7 +418,7 @@ a {
 
 
 .Arte2 {
-    background-image: url(./img/mockup-hamburger-C.jpg);
+    background-image: url(./img/hamburguer-cardapio.jpg);
     background-size: 150%;
 
 }
@@ -414,7 +436,7 @@ a {
 }
 
 .Arte5 {
-    background-image: url(./img/pizzaria\ napolitana\ \(8\).jpeg);
+    background-image: url(./img/pizzagrande.jpg);
 }
 
 .Arte6 {

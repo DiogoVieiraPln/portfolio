@@ -3,7 +3,7 @@ function iniciaModal(modalID) {
     if (modal) {
         modal.classList.add('mostrar')
         modal.addEventListener('click', (e) => {
-            if (e.target.id == 'fechou' || e.target.className == 'fechar') {
+            if (e.target.id == 'fechou' || e.target.className == 'fechar' || e.target.className == 'modal' || e.target.id == 'modal-artes') {
                 modal.classList.remove('mostrar')
             }
         });
@@ -27,27 +27,27 @@ const botão11 = document.querySelector('.love11')
 
 
 botão.addEventListener('click', () => {iniciaModal('modal-artes')
-document.querySelector('.imagemH').src = 'img/site 1.jpg';
+document.querySelector('.imagemH').src = './img/fornecedores.jpg';
 });
 
 botão1.addEventListener('click', () => {iniciaModal('modal-artes')
-  document.querySelector('.imagemH').src = 'img/comida.jpg';
+  document.querySelector('.imagemH').src = './img/sitemassas.jpg';
 });
 
 botão2.addEventListener('click', () => {iniciaModal('modal-artes')
-  document.querySelector('.imagemH').src = 'img/netflix.jpg';
+  document.querySelector('.imagemH').src = './img/netflix.jpg';
 });
 
 botão3.addEventListener('click', () => {iniciaModal('modal-artes')
-  document.querySelector('.imagemH').src = 'img/obaa.com.br_.png';
+  document.querySelector('.imagemH').src = './img/obaa.com.br.jpg';
 });
 
 botão4.addEventListener('click', () => {iniciaModal('modal-artes')
-  document.querySelector('.imagemH').src = 'img/zyro-templates.jpg';
+  document.querySelector('.imagemH').src = './img/sitevarycrazy.jpg';
 });
 
 botão5.addEventListener('click', () => {iniciaModal('modal-artes')
-  document.querySelector('.imagemH').src = 'img/loucura.jpg';
+  document.querySelector('.imagemH').src = './img/sitevarycrazy2.jpg';
 });
 
 botão6.addEventListener('click', () => {iniciaModal('modal-artes')
@@ -55,7 +55,7 @@ botão6.addEventListener('click', () => {iniciaModal('modal-artes')
 });
 
 botão7.addEventListener('click', () => {iniciaModal('modal-artes')
-  document.querySelector('.imagemH').src = 'img/mockup-hamburger-C.jpg';
+  document.querySelector('.imagemH').src = './img/hamburguer-cardapio.jpg';
 });
 
 botão8.addEventListener('click', () => {iniciaModal('modal-artes')
@@ -67,7 +67,7 @@ botão9.addEventListener('click', () => {iniciaModal('modal-artes')
 });
 
 botão10.addEventListener('click', () => {iniciaModal('modal-artes')
-  document.querySelector('.imagemH').src = 'img/pizzaria napolitana (8).jpeg';
+  document.querySelector('.imagemH').src = './img/pizzagrande.jpg';
 });
 
 botão11.addEventListener('click', () => {iniciaModal('modal-artes')
