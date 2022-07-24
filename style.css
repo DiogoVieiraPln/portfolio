@@ -185,6 +185,13 @@ nav.sumiu {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    -webkit-width: 40px;
+    -webkit-height: 40px;
+    -webkit-border-radius: 50px;
+    -webkit-display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
 }
 
 .nome {
