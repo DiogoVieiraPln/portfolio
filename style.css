@@ -126,6 +126,8 @@ nav.sumiu {
     font-weight: 600;
 }
 
+
+
 @keyframes Fmodal {
     from {
         -webkit-backdrop-filter: saturate(180%) blur(0px);
@@ -186,12 +188,6 @@ nav.sumiu {
     align-items: center;
     justify-content: center;
 
-    -webkit-width: 40px;
-    -webkit-height: 40px;
-    -webkit-border-radius: 50px;
-    -webkit-display: flex;
-    -webkit-align-items: center;
-    -webkit-justify-content: center;
 }
 
 .nome {
@@ -298,6 +294,15 @@ a {
     display: flex;
     align-items: center;
     padding: 3px;
+    position: relative;
+}
+
+.porcent{
+    position: absolute;
+    left: 45%;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
 }
 
 .quant {
