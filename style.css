@@ -35,6 +35,8 @@ main {
     display: flex;
     align-items: center;
     padding: 10px;
+    padding-left:15px;
+    padding-right:15px;
     color: rgb(156, 156, 156);
     box-shadow: 3px 2px 6px 0px #080808;
     justify-content: space-between;
@@ -302,7 +304,7 @@ a {
     left: 45%;
     font-weight: 500;
     font-size: 24px;
-    color: #000000;
+    color: #f9f9f9;
 }
 
 .quant {
@@ -487,6 +489,7 @@ a {
 .fim {
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .Final {
